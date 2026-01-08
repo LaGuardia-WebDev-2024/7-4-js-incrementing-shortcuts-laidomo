@@ -19,6 +19,7 @@ draw = function(){
   // sun
   fill(255, 170, 0);
   ellipse(200, 100, sunRadius, sunRadius);
+  sunRadius=sunRadius+1;
 
   // clouds 
   fill(255, 255, 255);
